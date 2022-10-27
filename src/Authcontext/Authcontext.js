@@ -10,7 +10,7 @@ const auth = getAuth(app)
 
 const Authcontext = ({children}) => {
 
-
+    //    theme toggole
         const [darkMode, setDarkMode] = useState(true);
 
         const handleLightTheme = () => {
