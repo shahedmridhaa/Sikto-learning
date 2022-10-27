@@ -17,6 +17,8 @@ const Course = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 my-3">
+              
+              {/* leftside card */}
               {courses.map((c) => (
                 <LeftNav key={c.id} course={c}></LeftNav>
               ))}
