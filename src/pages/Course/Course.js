@@ -12,9 +12,9 @@ const Course = () => {
   const {darkMode} = useContext(Mycontext)
 
   return (
-    <div >
+    <div>
       <section className={`${darkMode ? "bg-white" : "bg-dark border-btm"}`}>
-        <div className="container">
+        <div className="container my-0">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 my-3">
               
