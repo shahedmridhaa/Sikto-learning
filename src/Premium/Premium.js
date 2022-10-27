@@ -19,6 +19,8 @@ const Premium = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
+
+            {/* left side card */}
           <Card className="my-5">
               <Card.Img variant="top" src={d_pic} />
               <Card.Body>
@@ -43,6 +45,7 @@ const Premium = () => {
           </div>
           <div className="col-lg-3"></div>
           <div className="col-lg-5 ">
+            {/* right side checkout */}
            <div className="py-5 my-5 border rounded px-5 shadow-lg bg-white">
             <h3 className="text-centr fw-bold">CheckOut</h3>
                 <Form >
@@ -87,10 +90,9 @@ const Premium = () => {
            </Form>
     </div>
 </div>
-        </div>
-        </div>     
-          
-        </div>
+</div>
+</div>     
+</div>
    
   );
 };
