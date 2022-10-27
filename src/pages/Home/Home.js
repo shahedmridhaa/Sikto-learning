@@ -33,9 +33,9 @@ const Home = () => {
                 </div>
                 </div>
                 </div>
-         </section>
+            </section>
 
-
+   {/* card section */}
       <section className="home-card text-white">
         <div className="container">
           <div className="row">
@@ -86,6 +86,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* testimonial section */}
       <section className={`${darkMode ? "bg-yellow" : "bg-dark"}`}>
         <div className="container bg-light p-5 rounded rounded-lg ">
           <div className="row">
