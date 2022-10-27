@@ -26,6 +26,23 @@ const Blog = () => {
  Auth0, MongoDB, Passport, Okta, and Firebase are the most popular alternatives and competitors to Firebase Authentication.</p>  
   </div>
   </div>
+  <div class="card my-4">
+<div class="card-header">
+ <b>How does the private route work</b>
+</div >
+<div class="card-body">
+ <p class="card-text">The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property.</p>  
+  </div>
+  </div>
+
+  <div class="card my-4">
+<div class="card-header">
+ <b>What is node? How does Node work? </b>
+</div >
+<div class="card-body">
+ <p class="card-text">Node. js is a JavaScript runtime environment that achieves low latency and high throughput by taking a “non-blocking” approach to serving requests <br /> It is a used as backend service where javascript works on the server-side of the application.</p>  
+  </div>
+  </div>
 
 </div>
    </section>
