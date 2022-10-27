@@ -13,7 +13,20 @@ const Faq = () => {
           <div className="row">
             <div className="col-lg-2 col-md-2 col-sm-12"></div>
             <div className="col-lg-8 col-md-8 col-sm-12">
-              
+            <Accordion defaultActiveKey={["0"]} alwaysOpen>
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>
+                    Which Qualifications do I need to start the Course ?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    At first, You must have to good command of English. If you
+                    have academic degree it will help you to get job early . If
+                    you don't have academic degree you have To work hard to get a
+                    job . Just Focus on your skills .
+                  </Accordion.Body>
+                </Accordion.Item>
+             
+              </Accordion>
             </div>
             <div className="col-lg-2 col-md-2 col-sm-12"></div>
           </div>
