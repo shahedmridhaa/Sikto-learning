@@ -25,6 +25,27 @@ const Faq = () => {
                     job . Just Focus on your skills .
                   </Accordion.Body>
                 </Accordion.Item>
+
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>
+                    Which Divice Do I need to start The Course ?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    You must have to a Computer or a Leptop. Also you have to
+                    Internet Connection very well. Then you can start the course.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                  <Accordion.Header>
+                    Do You guys give us Job directly?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    No, We don't directly give you any job . If you do good in
+                    Your HomeWork we will send your Portfolio to many companies.
+                    Then you have to pass the interview then you will get your
+                    job. Thanks
+                  </Accordion.Body>
+                </Accordion.Item>
              
               </Accordion>
             </div>
