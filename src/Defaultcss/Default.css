@@ -1,0 +1,18 @@
+.bg-white{
+    background-color: white;
+}
+.bg-yellow{
+    background-color: #ffca28;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-white{
+    color: white;
+}
+.text-dark{
+    color: black;
+}
+.border-btm{
+    border-top: 1px solid white;
+}

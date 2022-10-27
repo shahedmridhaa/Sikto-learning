@@ -1,0 +1,10 @@
+div#navbarScroll {
+    text-align: end;
+}
+.navbar .navbar-toggler {
+    color: white!important;
+    margin-bottom: 4px;
+    }
+    .navbar .navbar-toggler:focus{
+    color: white;
+    }
